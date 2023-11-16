@@ -6,22 +6,22 @@ import Sidebar from '@/components/Sidebar'
 const font = Figtree({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
- title: 'LRGfy',
- description: 'Ultimate Destination for Music Lovers!',
+  title: 'LRGfy',
+  description: 'Ultimate Destination for Music Lovers!',
 }
 
 export default function RootLayout({
- children,
+  children,
 }: {
- children: React.ReactNode
+  children: React.ReactNode
 }) {
- return (
-  <html lang="en">
-   <body className={font.className}>
-    <Sidebar>
-     {children}
-    </Sidebar>
-   </body>
-  </html>
- )
+  return (
+    <html lang="en">
+      <body className={font.className}>
+        <Sidebar>
+          {children}
+        </Sidebar>
+      </body>
+    </html>
+  )
 }

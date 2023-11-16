@@ -33,7 +33,7 @@ const Library = () => {
               text-md
             "
           >
-            Your Library
+            Playlist
           </p>
         </div>
         <AiOutlinePlus

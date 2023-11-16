@@ -12,9 +12,8 @@ export default function Home() {
       "
     >
       <Header>
-        Header
+        Header Here!
       </Header>
-      Hello (Site)!
     </div>
   )
 }
